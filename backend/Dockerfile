@@ -4,6 +4,10 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    python3-dev \
+    libxml2-dev \
+    libxslt1-dev \
     curl \
     && rm -rf /var/lib/apt/lists/*
 

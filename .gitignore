@@ -1,0 +1,47 @@
+# ── Dependencies ─────────────────────────────────────────
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ── Build output ─────────────────────────────────────────
+frontend/dist/
+*.egg-info/
+build/
+
+# ── Environment / secrets ────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── IDE / editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+
+# ── Testing / coverage ──────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ── spaCy / NLP models ──────────────────────────────────
+backend/models/
+
+# ── Misc ─────────────────────────────────────────────────
+*.sqlite3
+*.db

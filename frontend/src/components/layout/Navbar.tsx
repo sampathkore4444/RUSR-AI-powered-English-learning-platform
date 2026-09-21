@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BookOpen, Brain, List, LogOut, User, Sun, Moon } from "lucide-react";
-import { clearToken, isAuthenticated } from "@/lib/api";
+import { clearToken } from "@/lib/api";
 import { useDarkMode } from "@/hooks/useDarkMode";
 
 const links = [
